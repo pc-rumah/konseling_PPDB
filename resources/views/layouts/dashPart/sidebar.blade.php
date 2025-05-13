@@ -31,7 +31,7 @@
 
                 @if (Auth::user()->hasRole('admin'))
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="./ui-buttons.html" aria-expanded="false">
+                        <a class="sidebar-link" href="/muser" aria-expanded="false">
                             <span>
                                 <i class="ti ti-article"></i>
                             </span>
